@@ -32,12 +32,12 @@ style = ttk.Style()
 style.configure("Rounded.TButton",
                 font=("Arial", 12),
                 foreground="black",  # Make button text black
-                background="white",
+                background="black",
                 borderwidth=2,
                 relief="flat",
                 padding=10)
 style.map("Rounded.TButton",
-          background=[("active", "#dddddd")])  # Slightly gray on hover
+          background=[("active", "#dddddd")])
 
 # Title Label
 label = tk.Label(root, text="Your Game Collection", font=("Arial", 16, "bold"), bg="#121212", fg="white")
@@ -93,11 +93,11 @@ edit_button = ttk.Button(button_frame, text="Edit Game", style="Rounded.TButton"
 delete_button = ttk.Button(button_frame, text="Delete Game", style="Rounded.TButton")
 exit_button = ttk.Button(button_frame, text="Exit", style="Rounded.TButton", command=root.quit)
 
-# Arrange buttons
+# Button Arrangements
 add_button.grid(row=0, column=0, padx=10, pady=5)
 edit_button.grid(row=0, column=1, padx=10, pady=5)
 delete_button.grid(row=0, column=2, padx=10, pady=5)
 exit_button.grid(row=0, column=3, padx=10, pady=5)
 
-# Run the application
+# Runs the application
 root.mainloop()

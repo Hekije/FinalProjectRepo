@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3091bb08-329f-44b6-aac7-70fd62983ef4" name="Changes" comment="Created a Tkinter-based GUI for managing a game collection.&#10;Implemented a dark-themed UI with a custom background color.&#10;Added a logo display using Pillow (PIL) to resize the image.&#10;Created a listbox to display games.&#10;Designed a popup window to add new games with fields for title, platform, genre, and status.&#10;Implemented a button system with a custom style.&#10;Used Toplevel windows for adding new game entries." />
+    <list default="true" id="3091bb08-329f-44b6-aac7-70fd62983ef4" name="Changes" comment="Created a Tkinter-based GUI for managing a game collection.&#10;Implemented a dark-themed UI with a custom background color.&#10;Added a logo display using Pillow (PIL) to resize the image.&#10;Created a listbox to display games.&#10;Designed a popup window to add new games with fields for title, platform, genre, and status.&#10;Implemented a button system with a custom style.&#10;Used Toplevel windows for adding new game entries.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game_collection.py" beforeDir="false" afterPath="$PROJECT_DIR$/game_collection.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,6 +23,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Hekije"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Hekije/FinalProjectRepo",
+    "accountId": "5fbaa246-b21f-4d28-ba0c-4c740fb5fb4e"
+  }
+}]]></component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/game_collection.py" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -107,7 +122,7 @@
       <workItem from="1740025401556" duration="136000" />
       <workItem from="1740025659766" duration="1431000" />
       <workItem from="1740158728201" duration="441000" />
-      <workItem from="1740159175087" duration="10253000" />
+      <workItem from="1740159175087" duration="10843000" />
     </task>
     <task id="LOCAL-00001" summary="Created a Tkinter-based GUI for managing a game collection.&#10;Implemented a dark-themed UI with a custom background color.&#10;Added a logo display using Pillow (PIL) to resize the image.&#10;Created a listbox to display games.&#10;Designed a popup window to add new games with fields for title, platform, genre, and status.&#10;Implemented a button system with a custom style.&#10;Used Toplevel windows for adding new game entries.">
       <option name="closed" value="true" />
@@ -117,7 +132,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740202938563</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Created a Tkinter-based GUI for managing a game collection.&#10;Implemented a dark-themed UI with a custom background color.&#10;Added a logo display using Pillow (PIL) to resize the image.&#10;Created a listbox to display games.&#10;Designed a popup window to add new games with fields for title, platform, genre, and status.&#10;Implemented a button system with a custom style.&#10;Used Toplevel windows for adding new game entries.">
+      <option name="closed" value="true" />
+      <created>1740211694451</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1740211694451</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -128,7 +151,13 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -139,6 +168,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Created a Tkinter-based GUI for managing a game collection.&#10;Implemented a dark-themed UI with a custom background color.&#10;Added a logo display using Pillow (PIL) to resize the image.&#10;Created a listbox to display games.&#10;Designed a popup window to add new games with fields for title, platform, genre, and status.&#10;Implemented a button system with a custom style.&#10;Used Toplevel windows for adding new game entries." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/PythonProject$game_collection.coverage" NAME="game_collection Coverage Results" MODIFIED="1740200300841" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PythonProject$game_collection.coverage" NAME="game_collection Coverage Results" MODIFIED="1740212201052" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
