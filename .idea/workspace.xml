@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3091bb08-329f-44b6-aac7-70fd62983ef4" name="Changes" comment="Created a Tkinter-based GUI for managing a game collection.&#10;Implemented a dark-themed UI with a custom background color.&#10;Added a logo display using Pillow (PIL) to resize the image.&#10;Created a listbox to display games.&#10;Designed a popup window to add new games with fields for title, platform, genre, and status.&#10;Implemented a button system with a custom style.&#10;Used Toplevel windows for adding new game entries.">
+    <list default="true" id="3091bb08-329f-44b6-aac7-70fd62983ef4" name="Changes" comment="Fixed the text on buttons being white on a white background to black so they can be seen.">
+      <change afterPath="$PROJECT_DIR$/assets/vault.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/default_image.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/game_collection.py" beforeDir="false" afterPath="$PROJECT_DIR$/game_collection.py" afterDir="false" />
     </list>
@@ -17,26 +19,30 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="package.json" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Hekije"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Hekije&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Hekije/FinalProjectRepo",
-    "accountId": "5fbaa246-b21f-4d28-ba0c-4c740fb5fb4e"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Hekije/FinalProjectRepo&quot;,
+    &quot;accountId&quot;: &quot;5fbaa246-b21f-4d28-ba0c-4c740fb5fb4e&quot;
   }
-}]]></component>
+}</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/game_collection.py" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
@@ -54,12 +60,13 @@
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/Henry/PycharmProjects/PythonProject/assets",
+    "last_opened_file_path": "C:/Users/Henry/PycharmProjects/PythonProject",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "project.propVCSSupport.CommitDialog",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -71,6 +78,10 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Henry\PycharmProjects\PythonProject\assets" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Henry\PycharmProjects\PythonProject\assets" />
+      <recent name="C:\Users\Henry\PycharmProjects\PythonProject\images" />
     </key>
   </component>
   <component name="RunManager">
@@ -122,7 +133,12 @@
       <workItem from="1740025401556" duration="136000" />
       <workItem from="1740025659766" duration="1431000" />
       <workItem from="1740158728201" duration="441000" />
-      <workItem from="1740159175087" duration="10843000" />
+      <workItem from="1740159175087" duration="11634000" />
+      <workItem from="1740375676435" duration="41000" />
+      <workItem from="1740716690847" duration="869000" />
+      <workItem from="1740755935472" duration="7000" />
+      <workItem from="1740934751057" duration="2123000" />
+      <workItem from="1741288708050" duration="24212000" />
     </task>
     <task id="LOCAL-00001" summary="Created a Tkinter-based GUI for managing a game collection.&#10;Implemented a dark-themed UI with a custom background color.&#10;Added a logo display using Pillow (PIL) to resize the image.&#10;Created a listbox to display games.&#10;Designed a popup window to add new games with fields for title, platform, genre, and status.&#10;Implemented a button system with a custom style.&#10;Used Toplevel windows for adding new game entries.">
       <option name="closed" value="true" />
@@ -140,13 +156,47 @@
       <option name="project" value="LOCAL" />
       <updated>1740211694451</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Fixed the text on buttons being white on a white background to black so they can be seen.">
+      <option name="closed" value="true" />
+      <created>1740212345488</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1740212345488</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="master" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="*" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
@@ -157,6 +207,24 @@
                   <entry key="Show.Git.Branches" value="true" />
                 </map>
               </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="user">
+                    <value>
+                      <list>
+                        <option value="*" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
             </State>
           </value>
         </entry>
@@ -165,9 +233,10 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Created a Tkinter-based GUI for managing a game collection.&#10;Implemented a dark-themed UI with a custom background color.&#10;Added a logo display using Pillow (PIL) to resize the image.&#10;Created a listbox to display games.&#10;Designed a popup window to add new games with fields for title, platform, genre, and status.&#10;Implemented a button system with a custom style.&#10;Used Toplevel windows for adding new game entries." />
-    <option name="LAST_COMMIT_MESSAGE" value="Created a Tkinter-based GUI for managing a game collection.&#10;Implemented a dark-themed UI with a custom background color.&#10;Added a logo display using Pillow (PIL) to resize the image.&#10;Created a listbox to display games.&#10;Designed a popup window to add new games with fields for title, platform, genre, and status.&#10;Implemented a button system with a custom style.&#10;Used Toplevel windows for adding new game entries." />
+    <MESSAGE value="Fixed the text on buttons being white on a white background to black so they can be seen." />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed the text on buttons being white on a white background to black so they can be seen." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/PythonProject$game_collection.coverage" NAME="game_collection Coverage Results" MODIFIED="1740212201052" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PythonProject$game_collection.coverage" NAME="game_collection Coverage Results" MODIFIED="1741495382076" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
